@@ -1,4 +1,4 @@
-import { Alert, Pressable, Text, TouchableOpacity, View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   return (
@@ -11,7 +11,7 @@ export default function Index() {
     >
       <Text>Hello world</Text>
       <TouchableOpacity
-        onPress={() => Alert.alert("Hello world!")}
+        onPress={() => alert("Hello world!")}
         style={{
           backgroundColor: "#007BFF",
           padding: 10,
